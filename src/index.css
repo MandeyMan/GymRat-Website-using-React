@@ -1,0 +1,566 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@700&family=Itim&family=Tinos&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: 0;
+    list-style-type: none;
+    font-family: 'Tinos';
+}
+
+
+
+.Navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #4d6e6e;
+   box-shadow: 2px 4px 15px grey;
+}
+.Navbar img{ 
+    width: 10%;
+    margin-left: 67px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+img{ width: 10%;
+
+} 
+.navItems{ 
+ 
+   flex-grow: 0.2;
+   align-self: flex-end;
+
+ 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: #4d6e6e;
+}
+.navItems  li{ 
+    margin: 12px 0px;
+    padding: 3px 25px;
+    list-style: none;
+    border: 2px solid;
+    background-color: #283e46;
+    border-radius: 3px;
+    box-shadow: 8px 5px 18px black;
+  
+    font-weight: bold;
+}
+.navItems  li:hover{ 
+
+    background-color: #4f6d78;
+    box-shadow: 8px 5px 22px rgb(1, 1, 1);
+   
+}
+.navItems  li a{
+     color: white; 
+}
+.navItems  li a:hover{
+     text-decoration: wavy;
+}
+
+/*  carasoul */
+
+.Main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Carasoul{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 319px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.carousel-control-prev {
+    left: 0;
+    background: #112b28;
+}
+.carousel-control-next {
+    right: 0;
+    background: #112b28;
+}
+
+ /* intro duction */
+ 
+ .Intro{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   
+    }
+    .introduction{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+  
+    }
+    .Introduction{
+        background: #82a3a3;
+        padding: 12px;
+        color:black;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 8px 10px grey;   
+
+    }
+    .Introduction h1,h2{
+        font-family: 'Alfa Slab One', cursive;
+    }
+
+    .Introduction p{
+        color: white;
+        font-family: 'Bangers', cursive;
+    }
+
+    .registerBtn{ 
+       /* padding: 1px 144px; */
+       width: 47%;
+       font-size: 40px;
+       border-radius: 10px;
+       margin-bottom: 40px;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+    }
+    .Intro img { 
+        width: 42%;
+        mix-blend-mode: multiply;
+    }
+    /* form  */
+
+    .div1 button{
+        padding: 0px 47px;
+    }
+    .div2{ 
+        margin-top: 10px;
+        border-radius: 19px;
+        height: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        width:-webkit-fill-available;
+        background-color: #c5e4e4;
+        box-shadow: 1px 8px 10px grey;   
+    }
+    .Intro button{
+        margin: 0px 203px;
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: larger;
+        background: #1c4041;
+        color: white;
+        box-shadow: 1px 8px 10px grey;   
+        /* box-shadow: 0px 1px 7px 0px; */
+    }
+    .Introduction .Btn{
+        padding: 1px 58px;
+        border-radius: 8px;
+        box-shadow: 1px 8px 10px grey;    }
+    .Form{
+        display: flex;
+        flex-direction: column;
+        /* height: 16rem; */
+        padding: 0px 6rem; 
+        gap: 25px;
+    border-radius: 10px;
+        background-color: #c5e4e4;
+    }
+    .Form input {
+        height: 3rem;
+        border: 2px solid black;
+        border-radius: 4px;
+        font-size: 34px;
+        /* box-shadow: 0px 1px 3px 0px; */
+    }
+    .Form button {
+        margin: 0px 128px;
+        height: 56px;
+        border-radius: 8px;
+        font-size: larger;
+        background: #417677;
+        color: white;
+    
+        /* box-shadow: 2px 4px 12px 0px; */
+    }
+    .heading{ 
+        display: flex;
+        flex-direction: row;
+         justify-content: center;
+         align-items: center;
+    }
+    .heading img{ 
+        width: 10%;
+      
+    }
+   .arm2{ 
+        width: 10%;
+      transform: scaleX(-1);
+    }
+    .Introduction{
+        display: flex;
+    flex-direction: column;
+    gap: 35px;
+    }
+
+
+/* excercise  card */
+.Excercise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.ExcerciseCard{
+    align-items: center;
+  margin: 10px 0px;
+     border: 2px solid red;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+/* .box11{ border: 2px solid blue;
+     display: flex;
+     flex-direction: row;
+        align-self: center;
+} */
+.ExcerciseCard img{ 
+    width: -webkit-fill-available;
+    border-radius: 14px;
+}
+.box12{ border: 2px solid rgb(255, 0, 208);
+     display: flex;
+     flex-direction: column;
+  
+}
+.box12 P{ 
+    width: 70ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box123{ border: 2px solid rgb(94, 255, 0);
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     justify-content: end;
+     flex-wrap: wrap;
+
+}
+
+.box123 h6{ 
+    background: #51bbba;
+    border-radius: 10px;
+    background: #204646;
+    color: white;
+    padding: 7px;
+}
+.box123 h5{ 
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+    font-size: xx-large;
+    width: fit-content;
+    align-self: center;
+    padding: 0px 57px;
+          
+}
+.box1234{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.showBtn{
+     width: fit-content;
+     align-self: flex-end;
+}
+
+/* Pricing */
+
+.Pricing{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height:fit-content;
+    flex-wrap: wrap;
+}
+.Pricing .Card{
+   margin: 20px 0px;
+    padding: 40px 10px;
+    height: 32rem;
+    width: 21rem;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    background: #6fa2a7;
+  box-shadow: 0px 0px 33px -5px gray;
+  transition: width 0.8s, height 0.8s,box-shadow 0.8s;
+}
+.Card:hover{
+    box-shadow: 0px 0px 33px 5px rgb(0, 0, 0);
+    height: 32.5rem;
+    width: 21.5rem;
+}
+.Card h3{ 
+    margin-top: 10px;
+}
+.Pricing .Card .CardImg{
+    width: 60%;
+    align-self: center;
+    border-radius: 11px;
+    margin-top: -22px;
+}
+
+.PricingBtn{
+    padding: 11px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #184e56;
+    margin: 0px 114px;
+    transition: all 0.8s;
+}
+.PricingBtn:hover{
+   
+    font-size: 27px;
+    background: #174349;
+
+}
+
+/* About us */
+
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 2rem 6rem;
+    background: #dfedef;
+}
+ .AboutIntro{
+    margin: 0rem 11rem;
+    margin-top: 2rem;
+ }
+
+ .developerSection{
+    display: flex;
+    padding: 0px 68px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2c4d51;
+ }
+ .developerSection img{
+    margin: 19px 0px;
+    width: 20%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+ }
+ .developerSection p{
+    word-wrap: break-word;
+    text-align: center;
+    color: white;
+ }
+ .myWords p{
+      margin-bottom: 0px;
+ }
+ .myWords h4{
+    font-size: 1.75rem;
+    color: white;
+ }
+
+ /* fitness calculatos */
+
+ .fitnessHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #4d6e6e;
+    box-shadow: 2px 4px 15px grey;
+
+    height: 5rem;
+ }
+ .fitnessHeader button{
+    background: #4d6a72;
+    color: white;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: large;
+    box-shadow: 2px 6px 8px 1px #454545;
+ }
+ .fitnessHeader button:hover{
+    background: #395663;
+    box-shadow:1px 1px 12px rgb(171, 169, 169);
+ }
+
+ /* bmi calculator */
+
+ .BMI .BmiMain{ 
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  margin: 28px;
+ }
+ .BMI .bmicalci{ 
+  border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    min-width: 21rem;
+    min-height: 53vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #c5e4e4;
+    box-shadow: 2px 6px 8px 1px #454545;
+ }
+ .bmicalci input{ 
+    padding: 15px;
+    border-radius: 5px;
+ }
+ .bmicalci button{
+    padding: 10px 43px;
+    background: #4c7589;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 8px grey;
+ }
+ .bmicalci button:hover{
+    background: #466a7b;
+    box-shadow:1px 1px 12px rgb(84, 83, 83);
+ }
+ .BMI img{ 
+    width:35%;
+ }
+ .BMI progress{
+    border: 1px solid;
+    width: 16%;
+    height: 44px;
+ }
+ 
+ .weight{
+     font-size: 40px;
+ }
+ .Main{
+     margin: 10px 10px;
+ }
+
+ /* media qrery */
+ @media only screen and (max-width: 932px) {
+   .Intro{
+    flex-direction: column;
+   }
+   .Intro h2{
+     font-size: 20px;
+   }
+   .Intro h1{
+     font-size: 32px;
+   }
+   .Intro p{
+     font-size: 13px;
+     word-wrap: break-word;
+   }
+   .Form .Submit {
+    margin: 0px 10px;
+    height: 41px;
+    font-size: larger;
+   }
+   .Form input {
+ padding: 0px 30px;
+    height: 41px;
+    font-size: larger;
+   }
+   .div2 .Btn{
+    margin: 0px 140px;
+    height: 46px;
+    border-radius: 8px;
+    font-size: larger;
+    background: #1c4041;
+   }
+
+   .BMI .bmicalci {
+    margin: 20px 0px;
+   }
+   .PricingBtn{ padding: 0px;
+    margin: 0px 59px;
+   }
+   .Card{ 
+    margin-top: 40px;
+    padding: 34px 1px;
+    height: 30rem;
+    width: 16rem;
+   }
+   .AboutIntro{
+    margin: 0px;
+   }
+   .AboutUs{
+    margin: 2rem 1rem;
+   }
+
+   .Footer .ContactLogo img{
+    width: 8%;
+    }
+  .Navbar{ 
+    flex-wrap: wrap;
+  }
+
+}
+
+/* Footer */
+
+.Footer{
+    box-shadow: 2px -4px 15px grey;
+     margin: 0px 14px;
+     background-color: #1d4543;
+     color: white;
+
+}
+.Footer .ContactLogo{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.Footer .ContactLogo img{
+width: 8%;
+background-color: white;
+border-radius: 51%;
+border: 2px solid #5fd2c8;
+}
+.Footer .footerpara p{
+margin-top: 10px;
+}
+.Footer .footerpara{
+margin-top: 10px;
+}
+.Footer h4
+{
+    margin-top: 24px;
+}
